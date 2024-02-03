@@ -45,7 +45,7 @@ def process_images(images_folder):
     return df
 
 if __name__ == "__main__":
-    images_folder_path = './imag'
+    images_folder_path = './'
 
     # Call the function to process images and get the DataFrame
     gcc_dataframe = process_images(images_folder_path)
